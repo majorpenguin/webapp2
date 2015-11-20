@@ -1,21 +1,37 @@
 <html>
 	<head>
-		<link rel="stylesheet" type="text/css" href="CSS.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 		<script type="text/javascript" src="javascript.js"></script>
+		<script type="text/javascript" src="js/bootstrap.js"></script>
 		<title>Web Application Development Project</title>
 	</head>
 	<body onload="setInterval('clockTime()', 200);">
-		<div>
-			<p id="description">Welcome! This site has been created to host a rich internet application developed by three computing students as an end of year project
-			</p>
+		<div class="jumbotron">
+			<div class="container">
+				<h1>World Clock</h1>
+				<p>This website allows users within the GMT timezone to view alternative time in different regions of the world, to get started please select a region below</p>
+			</div>
 		</div>
-		<h1 id="clock"></h1>
-		<div id="dropdown">
-			<select>
-			<option value="GMT">GMT</option>
-			<option value="pacific">Pacific</option>
-			</select>
-			<button type="button" onclick="time">Submit</button>
+		<div class="container">
+			<div id="map">
+				<img class="img-responsive" src="css/map-transparent.png">
+			</div>
+		<div class="dropdown">
+ 			<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    			Dropdown
+    			<span class="caret"></span>
+  			</button>
+  			<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+    			<li><a href="#">Action</a></li>
+    			<li><a href="#">Another action</a></li>
+    			<li><a href="#">Something else here</a></li>
+    			<li><a href="#">Separated link</a></li>
+  			</ul>
 		</div>
+		</div>
+		
+		<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
 	</body>
 </html>
