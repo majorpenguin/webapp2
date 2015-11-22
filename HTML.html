@@ -1,37 +1,46 @@
 <html>
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-		<script type="text/javascript" src="javascript.js"></script>
-		<script type="text/javascript" src="js/bootstrap.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/custom.css"/>
 		<title>Web Application Development Project</title>
 	</head>
 	<body onload="setInterval('clockTime()', 200);">
 		<div class="jumbotron">
 			<div class="container">
-				<h1>World Clock</h1>
-				<p>This website allows users within the GMT timezone to view alternative time in different regions of the world, to get started please select a region below</p>
+				<div class="row">
+					<div class="col-md-10">
+						<h1>World Clock</h1>
+						<p>This website allows users within the GMT timezone to view the local time, weather and location of the largest cities in the world. To start just choose a city from the list over there</p>
+					</div>
+				<div class="col-md-2">
+					<div class="dropdown">
+ 						<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    						Pick a city
+    						<span class="caret"></span>
+  						</button>
+  							<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+    							<li><a href="#">Tokyo</a></li>
+    							<li><a href="#">New York</a></li>
+    							<li><a href="#">Sao Paulo</a></li>
+    							<li><a href="#">Seoul</a></li>
+    							<li><a href="#">Mexico City</a></li>
+    							<li><a href="#">Osaka</a></li>
+    							<li><a href="#">Manila</a></li>
+    							<li><a href="#">Mumbai</a></li>
+    							<li><a href="#">Delhi</a></li>
+    							<li><a href="#">Jakarta</a></li>
+  							</ul>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
-		<div class="container">
-			<div id="map">
-				<img class="img-responsive" src="css/map-transparent.png">
-			</div>
-		<div class="dropdown">
- 			<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-    			Dropdown
-    			<span class="caret"></span>
-  			</button>
-  			<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-    			<li><a href="#">Action</a></li>
-    			<li><a href="#">Another action</a></li>
-    			<li><a href="#">Something else here</a></li>
-    			<li><a href="#">Separated link</a></li>
-  			</ul>
+		<div class="container" id="clockcon">
+			<div id="clock"></div>
 		</div>
-		</div>
-		
 		<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.js"></script>
+		<script type="text/javascript" src="javascript.js"></script>
 	</body>
 </html>

@@ -1,0 +1,10 @@
+.jumbotron{
+    background-image: url('map-transparent.png');
+    }
+#clockcon{
+    text-align: center;
+}
+#clock{
+    height:80%;
+    width:80%;
+}
