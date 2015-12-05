@@ -1,3 +1,4 @@
+//STRUCTURE TAKEN FROM http://blog.modulus.io/build-your-first-http-server-in-nodejs
 var dispatcher = require('httpdispatcher');
 var http = require('http');
     const PORT=8080; 
