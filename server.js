@@ -1,29 +1,27 @@
 //STRUCTURE TAKEN FROM http://blog.modulus.io/build-your-first-http-server-in-nodejs
-var dispatcher = require('httpdispatcher');
 var http = require('http');
-    const PORT=8080; 
+var path = require('path');
+var express = require('express');
+var bodyParser = require('body-parser');
+var fs = require('fs');
+var js2xmlparser = require("js2xmlparser");
+var xslt = require('node_xslt');
 
-function handleRequest(request, response){
-     try {
-        //log the request on console
-        console.log(request.url);
-        //Disptach
-        dispatcher.dispatch(request, response);
-    } catch(err) {
-        console.log(err);
-    }
-}
+var fs = require('fs')
+
+var router = express();
+var server = http.createServer(router);
+
+router.use(express.static(__dirname));
+router.use(bodyParser.urlencoded({ extended: true }));
+router.use(bodyParser.json());
 
 
-
-var server = http.createServer(handleRequest);
-
-server.listen(PORT, function(){
-    console.log("Server listening on: http://localhost:%s", PORT);
+router.get('/', function(req, res) {
+  res.sendFile('index.html');
 });
-var express = require('express'),
-    app = express();
 
-app.use(express.static(__dirname + '/public'));
-
-app.listen(8080);
+server.listen(process.env.PORT || 3000, process.env.IP || "0.0.0.0", function() {
+  var addr = server.address();
+  console.log("Server listening at", addr.address + ":" + addr.port);
+});
