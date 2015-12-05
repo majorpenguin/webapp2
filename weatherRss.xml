@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+	<channel>
+		<title>World Clock Weather Updates - RSS</title>
+		<item>
+			<title>Recent Weather - Tokyo</title>
+			<link>http://weather.weatherbug.com/forecasts/now/tokyo-tokyo-ja</link>
+			<guid>http://weather.weatherbug.com/forecasts/now/tokyo-tokyo-ja</guid>
+			<pubDate>Sat, 5 December 2015 12:00 GMT</pubDate>
+			<description>Current Weather Information for Tokyo</description>
+		</item>
+		<item>
+			<title>Recent Weather - New York</title>
+			<link>http://weather.weatherbug.com/forecasts/now/new-york-ny-10001</link>
+			<guid>http://weather.weatherbug.com/forecasts/now/new-york-ny-10001</guid>
+			<pubDate>Sat, 5 December 2015 12:00 GMT</pubDate>
+			<description>Current Weather Information for New York</description>
+		</item>
+		<item>
+			<title>Recent Weather - Sao Paulo</title>
+			<link>http://weather.weatherbug.com/forecasts/now/sao-paulo-sao-paulo-br</link>
+			<guid>http://weather.weatherbug.com/forecasts/now/sao-paulo-sao-paulo-br</guid>
+			<pubDate>Sat, 5 December 2015 12:00 GMT</pubDate>
+			<description>Current Weather Information for Sao Paulo</description>
+		</item>
+		<item>
+			<title>Recent Weather - Soeul</title>
+			<link>http://weather.weatherbug.com/forecasts/now/soeul-south-chungcheong-ks</link>
+			<guid>http://weather.weatherbug.com/forecasts/now/soeul-south-chungcheong-ks</guid>
+			<pubDate>Sat, 5 December 2015 12:00 GMT</pubDate>
+			<description>Current Weather Information for Soeul</description>
+		</item>
+		<item>
+			<title>Recent Weather - Mexico City</title>
+			<link>http://weather.weatherbug.com/forecasts/now/mexico-city-distrito-federal-mx</link>
+			<guid>http://weather.weatherbug.com/forecasts/now/mexico-city-distrito-federal-mx</guid>
+			<pubDate>Sat, 5 December 2015 12:00 GMT</pubDate>
+			<description>Current Weather Information for Mexico City</description>
+		</item>
+		<item>
+			<title>Recent Weather - Osaka</title>
+			<link>http://weather.weatherbug.com/forecasts/now/osaka-kinki-ja</link>
+			<guid>http://weather.weatherbug.com/forecasts/now/osaka-kinki-ja</guid>
+			<pubDate>Sat, 5 December 2015 12:00 GMT</pubDate>
+			<description>Current Weather Information for Osaka</description>
+		</item>
+		<item>
+			<title>Recent Weather - Manila</title>
+			<link>http://weather.weatherbug.com/forecasts/now/manila-mimaropa-rp</link>
+			<guid>http://weather.weatherbug.com/forecasts/now/manila-mimaropa-rp</guid>
+			<pubDate>Sat, 5 December 2015 12:00 GMT</pubDate>
+			<description>Current Weather Information for Manila</description>
+		</item>
+		<item>
+			<title>Recent Weather - Mumbai</title>
+			<link>http://weather.weatherbug.com/forecasts/now/mumbai-maharashtra-in</link>
+			<guid>http://weather.weatherbug.com/forecasts/now/mumbai-maharashtra-in</guid>
+			<pubDate>Sat, 5 December 2015 12:00 GMT</pubDate>
+			<description>Current Weather Information for Mumbai</description>
+		</item>
+		<item>
+			<title>Recent Weather - Dehli</title>
+			<link>http://weather.weatherbug.com/forecasts/now/nagla-dehli-uttar-pradesh-in</link>
+			<guid>http://weather.weatherbug.com/forecasts/now/nagla-dehli-uttar-pradesh-in</guid>
+			<pubDate>Sat, 5 December 2015 12:00 GMT</pubDate>
+			<description>Current Weather Information for Dehli</description>
+		</item>
+		<item>
+			<title>Recent Weather - Jakarta</title>
+			<link>http://weather.weatherbug.com/forecasts/now/jakarta-jakarta-raya-id</link>
+			<guid>http://weather.weatherbug.com/forecasts/now/jakarta-jakarta-raya-id</guid>
+			<pubDate>Sat, 5 December 2015 12:00 GMT</pubDate>
+			<description>Current Weather Information for Jakarta</description>
+		</item>
+	</channel>
+</rss>
