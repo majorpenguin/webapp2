@@ -21,3 +21,9 @@ var server = http.createServer(handleRequest);
 server.listen(PORT, function(){
     console.log("Server listening on: http://localhost:%s", PORT);
 });
+var express = require('express'),
+    app = express();
+
+app.use(express.static(__dirname + '/public'));
+
+app.listen(8080);
