@@ -7,11 +7,12 @@ function clockTime(){
   var currentMinutes = currentTime.getMinutes ( );
   var currentSeconds = currentTime.getSeconds ( );
 	
+	
+	if(currentHours > 23){
+		currentHours = currentHours - 24;
+	}
 	if(currentHours < 10){
 		currentHours = "0" + currentHours;
-	}
-	if(currentHours == 24){
-		currentHours = "00";
 	}
 	if(currentMinutes < 10){
 		currentMinutes = "0" + currentMinutes;
