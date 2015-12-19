@@ -1,76 +1,81 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
-	<channel>
-		<title>World Clock Weather Updates - RSS</title>
-		<item>
-			<title>Recent Weather - Tokyo</title>
-			<link>http://weather.weatherbug.com/forecasts/now/tokyo-tokyo-ja</link>
-			<guid>http://weather.weatherbug.com/forecasts/now/tokyo-tokyo-ja</guid>
-			<pubDate>Sat, 5 December 2015 12:00 GMT</pubDate>
-			<description>Current Weather Information for Tokyo</description>
-		</item>
+<?xml version="1.0" encoding="UTF-8"?><!--Global declaration of the xml version being used and the character encoding to be applied-->
+<!--?xml-stylesheet type="text/xsl" version="2.0" href="weatherRSS.xsl"?> Please refer to note regarding xslt below-->
+
+<!--linking to the xslt document.  The intention of this document was to transform the embedded url's into href elements to transform them into proper hyperlinks within the RSS feed.  Unfortunately this proved difficult and the solutions found online would not perform as intended, but instead would break the feed completely, so that it would not display at all.  As such we have commented this out of the Web App but have left the file intact for perusal and marking (if necessary).  -->  
+
+<?xml-stylesheet type="text/css" href="css/custom.css"?><!--Linking to the CSS file "Custom" to apply styling to the RSS feed, overwrites the default display of either the root xml file (as with chrome where no RSS reader is present by default) or the default stule from RSS Readers, such as the one present in the Firefox browser by default--> 
+<rss version="2.0"><!--Global declaration and opening tag for the RSS Feed inclugin version type-->
+	<channel><!--Tag identifying that the following code is an RSS Feed-->
+		<pageTitle>World Clock Weather Updates - RSS</pageTitle><!--Declaration of the title for the page-->
+		<item><!--DEclaration of the "items" that will be included in the RSS feed-->
+			<title>Recent Weather - Tokyo</title><!--Declaration of the title for each item-->
+			<description>Current Weather Information for Tokyo</description><!--Declaration of the description that will be provided for each item-->
+			<pubDate>Sat, 5 December 2015 12:00 GMT</pubDate><!--Declaration of the publishing date for each input-->
+			<link>http://weather.weatherbug.com/forecasts/now/tokyo-tokyo-ja</link><!--Delaration of the link that is being used for the item within the feed-->
+			<guid>http://weather.weatherbug.com/forecasts/now/tokyo-tokyo-ja</guid><!--Declaration of the link to represent it visually in the RSS Feed-->
+		</item><!--Closing Tag for each item-->
 		<item>
 			<title>Recent Weather - New York</title>
+			<description>Current Weather Information for New York</description>
+			<pubDate>Sat, 5 December 2015 12:00 GMT</pubDate>
 			<link>http://weather.weatherbug.com/forecasts/now/new-york-ny-10001</link>
 			<guid>http://weather.weatherbug.com/forecasts/now/new-york-ny-10001</guid>
-			<pubDate>Sat, 5 December 2015 12:00 GMT</pubDate>
-			<description>Current Weather Information for New York</description>
 		</item>
 		<item>
 			<title>Recent Weather - Sao Paulo</title>
+			<description>Current Weather Information for Sao Paulo</description>
+			<pubDate>Sat, 5 December 2015 12:00 GMT</pubDate>
 			<link>http://weather.weatherbug.com/forecasts/now/sao-paulo-sao-paulo-br</link>
 			<guid>http://weather.weatherbug.com/forecasts/now/sao-paulo-sao-paulo-br</guid>
-			<pubDate>Sat, 5 December 2015 12:00 GMT</pubDate>
-			<description>Current Weather Information for Sao Paulo</description>
 		</item>
 		<item>
 			<title>Recent Weather - Soeul</title>
+			<description>Current Weather Information for Soeul</description>
+			<pubDate>Sat, 5 December 2015 12:00 GMT</pubDate>
 			<link>http://weather.weatherbug.com/forecasts/now/soeul-south-chungcheong-ks</link>
 			<guid>http://weather.weatherbug.com/forecasts/now/soeul-south-chungcheong-ks</guid>
-			<pubDate>Sat, 5 December 2015 12:00 GMT</pubDate>
-			<description>Current Weather Information for Soeul</description>
 		</item>
 		<item>
 			<title>Recent Weather - Mexico City</title>
+			<description>Current Weather Information for Mexico City</description>
+			<pubDate>Sat, 5 December 2015 12:00 GMT</pubDate>
 			<link>http://weather.weatherbug.com/forecasts/now/mexico-city-distrito-federal-mx</link>
 			<guid>http://weather.weatherbug.com/forecasts/now/mexico-city-distrito-federal-mx</guid>
-			<pubDate>Sat, 5 December 2015 12:00 GMT</pubDate>
-			<description>Current Weather Information for Mexico City</description>
 		</item>
 		<item>
 			<title>Recent Weather - Osaka</title>
+			<description>Current Weather Information for Osaka</description>
+			<pubDate>Sat, 5 December 2015 12:00 GMT</pubDate>
 			<link>http://weather.weatherbug.com/forecasts/now/osaka-kinki-ja</link>
 			<guid>http://weather.weatherbug.com/forecasts/now/osaka-kinki-ja</guid>
-			<pubDate>Sat, 5 December 2015 12:00 GMT</pubDate>
-			<description>Current Weather Information for Osaka</description>
 		</item>
 		<item>
 			<title>Recent Weather - Manila</title>
+			<description>Current Weather Information for Manila</description>
+			<pubDate>Sat, 5 December 2015 12:00 GMT</pubDate>
 			<link>http://weather.weatherbug.com/forecasts/now/manila-mimaropa-rp</link>
 			<guid>http://weather.weatherbug.com/forecasts/now/manila-mimaropa-rp</guid>
-			<pubDate>Sat, 5 December 2015 12:00 GMT</pubDate>
-			<description>Current Weather Information for Manila</description>
 		</item>
 		<item>
 			<title>Recent Weather - Mumbai</title>
+			<description>Current Weather Information for Mumbai</description>
+			<pubDate>Sat, 5 December 2015 12:00 GMT</pubDate>
 			<link>http://weather.weatherbug.com/forecasts/now/mumbai-maharashtra-in</link>
 			<guid>http://weather.weatherbug.com/forecasts/now/mumbai-maharashtra-in</guid>
-			<pubDate>Sat, 5 December 2015 12:00 GMT</pubDate>
-			<description>Current Weather Information for Mumbai</description>
 		</item>
 		<item>
 			<title>Recent Weather - Dehli</title>
+			<description>Current Weather Information for Dehli</description>
+			<pubDate>Sat, 5 December 2015 12:00 GMT</pubDate>
 			<link>http://weather.weatherbug.com/forecasts/now/nagla-dehli-uttar-pradesh-in</link>
 			<guid>http://weather.weatherbug.com/forecasts/now/nagla-dehli-uttar-pradesh-in</guid>
-			<pubDate>Sat, 5 December 2015 12:00 GMT</pubDate>
-			<description>Current Weather Information for Dehli</description>
 		</item>
 		<item>
 			<title>Recent Weather - Jakarta</title>
+			<description>Current Weather Information for Jakarta</description>
+			<pubDate>Sat, 5 December 2015 12:00 GMT</pubDate>
 			<link>http://weather.weatherbug.com/forecasts/now/jakarta-jakarta-raya-id</link>
 			<guid>http://weather.weatherbug.com/forecasts/now/jakarta-jakarta-raya-id</guid>
-			<pubDate>Sat, 5 December 2015 12:00 GMT</pubDate>
-			<description>Current Weather Information for Jakarta</description>
 		</item>
-	</channel>
-</rss>
+	</channel><!--Closing tag for the feed-->
+</rss><!--Closing tag for the RSS feed-->

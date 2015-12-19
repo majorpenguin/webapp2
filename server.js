@@ -1,3 +1,4 @@
+/* Code taken from http://blog.modulus.io/build-your-first-http-server-in-nodejs */
 var http = require('http');
 var path = require('path');
 var express = require('express');
